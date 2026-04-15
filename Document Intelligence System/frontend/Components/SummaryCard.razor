@@ -1,0 +1,14 @@
+<div class="summary-card">
+    <h4>@Card.Title</h4>
+    <p>@Card.SummaryText</p>
+    <ul>
+        @foreach (var point in Card.KeyPoints)
+        {
+            <li>@point</li>
+        }
+    </ul>
+</div>
+
+@code {
+    [Parameter, EditorRequired] public Models.SummaryCard Card { get; set; } = new();
+}

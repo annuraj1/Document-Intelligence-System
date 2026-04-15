@@ -1,0 +1,58 @@
+{
+  "database": "DocumentIntelligenceDb",
+  "collections": [
+    {
+      "name": "Users",
+      "schema": {
+        "required": ["email", "displayName", "passwordHash", "createdAtUtc"],
+        "properties": {
+          "email": { "bsonType": "string" },
+          "displayName": { "bsonType": "string" },
+          "passwordHash": { "bsonType": "string" },
+          "createdAtUtc": { "bsonType": "date" }
+        }
+      }
+    },
+    {
+      "name": "Documents",
+      "schema": {
+        "required": ["userId", "fileName", "contentType", "fileSizeBytes", "storagePath", "status", "createdAtUtc", "updatedAtUtc"],
+        "properties": {
+          "userId": { "bsonType": "string" },
+          "fileName": { "bsonType": "string" },
+          "contentType": { "bsonType": "string" },
+          "fileSizeBytes": { "bsonType": "long" },
+          "storagePath": { "bsonType": "string" },
+          "status": { "bsonType": "string" },
+          "createdAtUtc": { "bsonType": "date" },
+          "updatedAtUtc": { "bsonType": "date" }
+        }
+      }
+    },
+    {
+      "name": "ExtractedContent",
+      "schema": {
+        "required": ["documentId", "rawText", "sections", "createdAtUtc"],
+        "properties": {
+          "documentId": { "bsonType": "string" },
+          "rawText": { "bsonType": "string" },
+          "sections": { "bsonType": "array" },
+          "createdAtUtc": { "bsonType": "date" }
+        }
+      }
+    },
+    {
+      "name": "Summaries",
+      "schema": {
+        "required": ["documentId", "title", "summaryText", "keyPoints", "createdAtUtc"],
+        "properties": {
+          "documentId": { "bsonType": "string" },
+          "title": { "bsonType": "string" },
+          "summaryText": { "bsonType": "string" },
+          "keyPoints": { "bsonType": "array" },
+          "createdAtUtc": { "bsonType": "date" }
+        }
+      }
+    }
+  ]
+}

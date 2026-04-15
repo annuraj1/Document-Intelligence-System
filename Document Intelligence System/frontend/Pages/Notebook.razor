@@ -1,0 +1,65 @@
+@page "/notebook/{DocumentId}"
+@inject Services.IApiService ApiService
+
+<h3>Notebook View</h3>
+
+@if (IsLoading)
+{
+    <LoadingSpinner Message="Loading notebook..." />
+}
+else if (!string.IsNullOrWhiteSpace(Error))
+{
+    <p class="error">@Error</p>
+}
+else if (Document is not null)
+{
+    <h4>@Document.FileName</h4>
+    <p>Status: @Document.Status</p>
+
+    <SectionNavigation Sections="Document.Sections" />
+
+    <div class="sections">
+        @for (var i = 0; i < Document.Sections.Count; i++)
+        {
+            <div id="@($"section-{i}")" class="section-card">
+                <h5>Section @(i + 1)</h5>
+                <p>@Document.Sections[i]</p>
+            </div>
+        }
+    </div>
+
+    <h4>Summary Cards</h4>
+    @foreach (var summary in Document.Summaries)
+    {
+        <SummaryCard Card="summary" />
+    }
+}
+
+@code {
+    [Parameter] public string DocumentId { get; set; } = string.Empty;
+
+    private DocumentDetail? Document { get; set; }
+    private bool IsLoading { get; set; } = true;
+    private string Error { get; set; } = string.Empty;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        try
+        {
+            IsLoading = true;
+            Document = await ApiService.GetDocumentAsync(DocumentId);
+            if (Document is null)
+            {
+                Error = "Document not found.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Error = ex.Message;
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+}

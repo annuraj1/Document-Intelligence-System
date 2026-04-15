@@ -1,0 +1,24 @@
+<div class="upload-dropzone" @ondragover:preventDefault @ondrop:preventDefault @ondrop="OnDrop">
+    <p>Drag & drop your PDF here or choose a file</p>
+    <InputFile OnChange="OnFileSelected" accept=".pdf" />
+</div>
+
+@code {
+    [Parameter] public EventCallback<IBrowserFile> FileSelected { get; set; }
+
+    private async Task OnDrop(Microsoft.AspNetCore.Components.Web.DragEventArgs _)
+    {
+        // Blazor cannot directly access dropped file list from DragEventArgs in all hosts.
+        // InputFile remains the reliable cross-browser fallback.
+        await Task.CompletedTask;
+    }
+
+    private async Task OnFileSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file is not null)
+        {
+            await FileSelected.InvokeAsync(file);
+        }
+    }
+}

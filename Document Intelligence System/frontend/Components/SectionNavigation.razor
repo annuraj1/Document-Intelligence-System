@@ -1,0 +1,15 @@
+<div class="section-navigation">
+    <h4>Sections</h4>
+    <ul>
+        @for (var i = 0; i < Sections.Count; i++)
+        {
+            <li>
+                <a href="@($"#section-{i}")">Section @(i + 1)</a>
+            </li>
+        }
+    </ul>
+</div>
+
+@code {
+    [Parameter] public List<string> Sections { get; set; } = [];
+}

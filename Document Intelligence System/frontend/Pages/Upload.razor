@@ -1,0 +1,86 @@
+@page "/upload"
+@inject Services.IApiService ApiService
+@inject NavigationManager Navigation
+
+<h3>Upload PDF</h3>
+
+<DragDropUpload FileSelected="HandleFileSelected" />
+
+@if (IsLoading)
+{
+    <LoadingSpinner Message="@LoadingMessage" />
+}
+
+@if (!string.IsNullOrWhiteSpace(Error))
+{
+    <p class="error">@Error</p>
+}
+
+@if (!string.IsNullOrWhiteSpace(DocumentId))
+{
+    <p>Document uploaded: @DocumentId</p>
+    <button @onclick="ProcessAsync">Run Extract + Analyze + Summarize</button>
+}
+
+@code {
+    private IBrowserFile? _selectedFile;
+    private string DocumentId { get; set; } = string.Empty;
+    private bool IsLoading { get; set; }
+    private string LoadingMessage { get; set; } = "Uploading...";
+    private string Error { get; set; } = string.Empty;
+
+    private async Task HandleFileSelected(IBrowserFile file)
+    {
+        _selectedFile = file;
+        Error = string.Empty;
+        IsLoading = true;
+        LoadingMessage = "Uploading PDF...";
+
+        try
+        {
+            var response = await ApiService.UploadAsync(file, "demo-user");
+            DocumentId = response.DocumentId;
+        }
+        catch (Exception ex)
+        {
+            Error = ex.Message;
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+
+    private async Task ProcessAsync()
+    {
+        if (string.IsNullOrWhiteSpace(DocumentId))
+        {
+            return;
+        }
+
+        IsLoading = true;
+        Error = string.Empty;
+
+        try
+        {
+            LoadingMessage = "Extracting content...";
+            await ApiService.ExtractAsync(DocumentId);
+
+            LoadingMessage = "Analyzing sections...";
+            await ApiService.AnalyzeAsync(DocumentId);
+
+            LoadingMessage = "Generating AI summary...";
+            await ApiService.SummarizeAsync(DocumentId);
+
+            Navigation.NavigateTo($"/notebook/{DocumentId}");
+        }
+        catch (Exception ex)
+        {
+            Error = ex.Message;
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+}

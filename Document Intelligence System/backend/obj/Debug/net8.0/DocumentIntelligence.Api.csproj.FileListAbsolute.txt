@@ -1,0 +1,97 @@
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.staticwebassets.endpoints.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.exe
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.deps.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.pdb
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\DnsClient.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\Snappier.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\scopedcss\bundle\DocumentIntelligence.Api.styles.css
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\Document.DAA5A12A.Up2Date
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\refint\DocumentIntelligence.Api.dll
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.pdb
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\Document Intelligence System\backend\obj\Debug\net8.0\ref\DocumentIntelligence.Api.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.staticwebassets.endpoints.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.exe
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.deps.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.runtimeconfig.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\DocumentIntelligence.Api.pdb
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\DnsClient.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\Snappier.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.csproj.AssemblyReference.cache
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.AssemblyInfoInputs.cache
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.AssemblyInfo.cs
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.csproj.CoreCompileInputs.cache
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\scopedcss\bundle\DocumentIntelligence.Api.styles.css
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\Document.DAA5A12A.Up2Date
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\refint\DocumentIntelligence.Api.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.pdb
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\DocumentIntelligence.Api.genruntimeconfig.cache
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\obj\Debug\net8.0\ref\DocumentIntelligence.Api.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\UglyToad.PdfPig.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\UglyToad.PdfPig.Core.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\UglyToad.PdfPig.Fonts.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\UglyToad.PdfPig.Tokenization.dll
+C:\Users\rajan\Downloads\Document Intelligence System_A\Document Intelligence System\backend\bin\Debug\net8.0\UglyToad.PdfPig.Tokens.dll

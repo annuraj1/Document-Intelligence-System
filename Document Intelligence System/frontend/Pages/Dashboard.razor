@@ -1,0 +1,13 @@
+@page "/"
+@page "/dashboard"
+
+<h3>AI Document Intelligence Notebook</h3>
+<p>Upload PDFs, run extraction and summarization, and explore notebook-ready insights.</p>
+
+<div class="dashboard-actions">
+    <button @onclick='() => Navigation.NavigateTo("/upload")'>Upload New Document</button>
+</div>
+
+@code {
+    [Inject] private NavigationManager Navigation { get; set; } = default!;
+}

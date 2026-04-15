@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1.5rem;
+    background: #f4f6fb;
+}
+
+.card, .section-card, .summary-card, .upload-dropzone {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.upload-dropzone {
+    border: 2px dashed #667eea;
+    text-align: center;
+}
+
+.loading-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.spinner {
+    width: 22px;
+    height: 22px;
+    border: 3px solid #ddd;
+    border-top-color: #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.error {
+    color: #b00020;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
